@@ -89,4 +89,4 @@ app.get('/api/edital/:id', async (req, res) => {
 
 
 
-app.listen(port, () => console.log(`App listening on port ${port}!`));
+app.listen(port, () => console.log(`Rodando em http://localhost:${port}`));
